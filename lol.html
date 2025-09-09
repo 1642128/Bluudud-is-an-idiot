@@ -77,9 +77,11 @@
         	</script>
         	<script>
             	audio.loop = true;
-              	if (audio.paused) {
-                	audio.play();
-              	}
+            		document.addEventListener('click', function() {
+              			if (audio.paused) {
+                			audio.play();
+              			}
+					});
         	</script>
 	</body>
 </html>
